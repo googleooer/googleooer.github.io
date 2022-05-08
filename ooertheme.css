@@ -1,0 +1,163 @@
+//META{"name":"ooer","description":"oh hombre son agradables para ayrudar","author":"TheMork#1944 https://github.com/MorkHub","version":"1.1"}*//{}
+
+
+*{cursor:url(//b.thumbs.redditmedia.com/YrGSo9BGOoMTX5rdUbNriLBUTmYhe7bB4yZuSKItEKY.png),auto;animation:shadow-shake .1s linear infinite}
+
+
+body {
+  background-image:url('gotoatom.jpg');
+  background-repeat:repeat;
+  animation-name: h;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-family: arial;
+  text-shadow: 1px 1px #000dff;
+  color: #22ff00;
+  text-align: center;
+}
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+text
+{
+  color:blue;
+}
+
+
+#gameText {
+  animation-name: spin;
+  animation-duration: 700ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+  0%{
+	  font-size: 70px;
+	  color: #ffff00;
+  }
+  50%{
+	  font-size: 150px;
+	  color: #ff00d0;
+  }
+  100%{
+	  font-size: 70px;
+	  color: #ffff00;
+  }
+}
+
+@keyframes h{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: 600px 0px;
+	}
+	0%{
+	background-size: 50%;
+	}
+	25%{
+	background-size: 1%;
+	}
+	50%{
+	background-size: 50%;
+	}
+	75%{
+	background-size: 75%;
+	}
+	100%{
+	background-size: 50%;
+		
+	}
+}
+
+@keyframes ooo{
+	0%{
+		background-position: -256px -256px;
+	}
+	25%{
+		background-position: 256px -256px;
+	}
+	50%{
+		background-position: 256px 256px;
+	}
+	75%{
+		background-position: -256px 256px;
+	}
+	100%{
+		background-position: -256px -256px;
+	}
+}
+
+@keyframes funnyOpacity{
+	0%{
+		opacity: 0%;
+	}
+	50%{
+		opacity: 100%;
+	}
+	100%{
+		opacity: 0%;
+	}
+}
+
+#funnyErrorText{
+	font-size: 120px;
+	color: #ff0000;
+}
+
+#funnyImageLole{
+	animation-name: spin;
+	animation-duration: 1200ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes shakeIntensifies {
+  0% { transform: translate(4px, 4px) rotate(0deg); }
+  10% { transform: translate(-4px, -8px) rotate(-1deg); }
+  20% { transform: translate(-12px, 0px) rotate(1deg); }
+  30% { transform: translate(12px, 8px) rotate(0deg); }
+  40% { transform: translate(4px, -4px) rotate(1deg); }
+  50% { transform: translate(-4px, 8px) rotate(-1deg); }
+  60% { transform: translate(-12px, 4px) rotate(0deg); }
+  70% { transform: translate(12px, 4px) rotate(-1deg); }
+  80% { transform: translate(-4px, -4px) rotate(1deg); }
+  90% { transform: translate(4px, 8px) rotate(0deg); }
+  100% { transform: translate(4px, -8px) rotate(-1deg); }
+}
+
+#funnyShake{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+img:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
