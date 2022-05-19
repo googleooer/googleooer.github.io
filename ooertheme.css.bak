@@ -11,6 +11,10 @@
   animation: 0.1s linear 0s normal none infinite running shadow-shake;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-image: url("gotoatom.jpg");
   min-height: 100%;

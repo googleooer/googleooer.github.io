@@ -5,10 +5,12 @@
     <link rel="stylesheet" href="ooertheme.css">
     <title>OH MAN AM NOT GOOD WITH COMPUTER PLS TO HELP</title>
   </head>
-  <body> <iframe src="dreamscape.mp3" autoplay="autoplay" loop="loop" style="display:none"
+  <body> <iframe src="dreamscape.mp3" autoplay="autoplay" loop="loop" style="display:none"
+
       id="iframeAudio"> </iframe>best automotive engines since 1996<br>
     <h1>welcome to the wonderful world of ooe r</h1>
-    <button name="skeletonb" type="button" formtarget="skeleton.html" style="width: 207.444px; height: 92.6667px; margin-left: -397.778px; margin-top: 183.333px;"
+    <button name="skeletonb" type="button" href="skeleton.html" style="width: 269.222px; height: 121.222px; margin-left: -397.778px; margin-top: -2.22256px;"
+
       id="skeletonbutton">the entrance</button>
   </body>
 </html>
